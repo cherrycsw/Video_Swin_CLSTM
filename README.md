@@ -159,7 +159,7 @@ mim test mmaction configs/video_swin_clstm-p244-w877_8xb8-amp-32x2x1-30e_ucf101-
 
 ### UCF-101 (Using our custom pre-train model:ImageNet-1K-LSTM for our model)
 
-| Model | Input | Pretrain | Top1 acc | Top5 acc |  FLOPs(G) |                                                                                                                                                                                            |
+| Model | Input | Pretrain | Top1 acc | Top5 acc |  FLOPs(G) |                                                                                                                                                                                            
 | :---------------------: | :----------: | :--------------: | :------: | :------: | :---: |
 |   Video Swin-T          | RGB          | ImageNet-1K      |   89.6   |   97.4   |  93   |
 |   Video Swin-T          | RGB+Flow     | ImageNet-1K      |   92.2   |   99.1   |  91   |
@@ -167,5 +167,3 @@ mim test mmaction configs/video_swin_clstm-p244-w877_8xb8-amp-32x2x1-30e_ucf101-
 |   Video Swin-CLSTM      | RGB          | ImageNet-1K-LSTM |   91.5   |   98.7   |  273  |
 |   Video Swin-CLSTM      | RGB+Flow     | ImageNet-1K-LSTM | **92.8** | **99.4** |  261  |
 |   Video Swin-CLSTM      | LessRGB+Flow | ImageNet-1K-LSTM |   92.5   |   99.3   |  239  |
-
-\[1\] The models are ported from the repo [ActionCLIP](https://github.com/sallymmx/ActionCLIP) and tested on our data. Currently, we only support the testing of ActionCLIP models. Due to the variation in testing data, our reported test accuracy differs from that of the original repository (on average, it is lower by one point). Please refer to this [issue](https://github.com/sallymmx/ActionCLIP/issues/14) for more details.

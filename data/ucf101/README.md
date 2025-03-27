@@ -1,4 +1,4 @@
-### **This directory stores the UCF-101 dataset.** The descriptions of the folders are as follows:
+### This directory stores the UCF-101 dataset. The descriptions of the folders are as follows:
 
 **annotations** --stores the labels for training and testing of the dataset.
 
