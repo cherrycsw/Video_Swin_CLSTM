@@ -159,7 +159,7 @@ mim test mmaction configs/video_swin_clstm-p244-w877_8xb8-amp-32x2x1-30e_ucf101-
 
 ### UCF-101 (Using our custom pre-train model:ImageNet-1K-LSTM for our model)
 
-| Model | Input | Pretrain | Top1 acc | Top5 acc |  FLOPs(G) |                                                                                                                                                                                            
+| Model | Input | Pretrain | Top1 acc (%) | Top5 acc (%) | FLOPs (G) |
 | :---------------------: | :----------: | :--------------: | :------: | :------: | :---: |
 |   Video Swin-T          | RGB          | ImageNet-1K      |   89.6   |   97.4   |  93   |
 |   Video Swin-T          | RGB+Flow     | ImageNet-1K      |   92.2   |   99.1   |  91   |
